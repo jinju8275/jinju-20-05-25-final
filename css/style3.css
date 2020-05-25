@@ -1,0 +1,158 @@
+
+			* {margin: 0; padding: 0;
+				font-family: 'Noto Sans KR', sans-serif;
+				box-sizing: border-box; color:gray;}
+
+		.korean {
+			font-weight: lighter;
+			}
+
+		html, body {scroll-behavior: smooth;}
+
+		nav {
+			position: relative;
+		}
+
+
+		nav ul{	position: absolute;
+				right: 15%;
+				height: 44px;
+				}
+
+		nav ul li{margin: auto;
+					list-style-type: none;
+					width: 200px; height: 44px;
+					text-align: center;
+					line-height: 44px;
+					float: left;}
+
+		nav ul li::after {
+			display: block;
+			content: "";
+			clear: both;
+		}
+
+
+		nav ul li a{display: inline-block;
+					text-decoration: none;
+					font-size: 0.8em;
+					color: #4d4642;
+				}
+
+		.logo{height: 44px; line-height: 44px;
+			display: inline-block;
+			width: 30px;
+			text-align: center;
+			margin-top: 10px;
+			position: absolute;
+			left:15%;
+			}
+
+
+
+		body{margin:0;}
+		
+		header{width: 100%;
+				margin: auto;
+				height: 50px;
+				margin-bottom: 200px;
+				position: relative;
+			}
+
+
+		h2{margin:0;
+			text-align: center;
+			margin-bottom: 50px;
+			font-size: 2.4em;
+			font-family: 'Lobster', cursive;
+			font-weight: lighter;
+			color: #4d4642;}
+
+		h3{margin:0;
+			text-align: center;
+			margin-bottom: 50px;
+			font-size: 2.4em;
+			font-family: 'Lobster', cursive;
+			color: #4d4642;}
+
+		h4{margin:0;
+			text-align: center;
+			margin-bottom: 10px;
+			font-size: 6em; color:black;}
+
+		h5{margin:0;
+			text-align: center;
+			margin-bottom: 50px;
+			font-size: 1em; color:black;}
+
+		h6{margin:0;	
+			font-size: 1em;
+			color: gray;
+			font-weight: normal;}
+
+
+		img{display: block; width: 100%;}
+
+		p{margin:0;
+			line-height: 26px;
+			letter-spacing: 0.3px;
+			}
+
+
+		section{width: 900px; margin: auto;
+				margin-bottom: 300px;
+				}
+
+		section div a {text-decoration: none;
+						display: inline-block;
+						color: gray;
+						font-style: italic;
+						}
+
+		footer{width: 100%; margin: auto;
+				text-align: center;
+				height: 500px;
+				
+				}
+
+		footer * {
+			text-align: center;
+			color:#4d4642;
+		}
+		
+
+
+		.f-section{text-align: center;
+					font-weight: lighter;}
+		.s-section{text-align: center;
+					font-size: 15px;
+					font-weight: lighter;}
+
+
+
+		.item-wrap1 {
+				display: flex;}
+
+		.item1{width: 300px;
+			height: 300px;
+			padding:10px;
+			position: relative;}
+
+		.item1 img {
+			width:100%;}
+
+
+
+
+		.item-wrap2 {
+				display: flex;}
+
+		.item2{width: 500px;
+			height: 450px;
+			padding:5px;}
+
+
+
+
+		.final-section {text-align: center;
+						font-weight: lighter;}
